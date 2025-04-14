@@ -23,8 +23,8 @@ This project uses Playwright to automate the video creation process on VEED.io. 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/video-gen-bot.git
-   cd video-gen-bot
+   git clone [https://github.com/Harshit1o😎/repo-name.git](https://github.com/Harshit1o/Auto_vid_generator.git)
+   cd file-name
    ```
 
 2. Install dependencies:
