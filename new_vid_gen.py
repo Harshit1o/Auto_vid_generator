@@ -49,7 +49,7 @@ async def run():
 
         # Step 1: Go to VEED
         try:
-            await page.goto("https://www.veed.io/ai-text-to-video", timeout=60000)
+            await page.goto("https://www.veed.io/ai-text-to-video", timeout=50000)
             await page.wait_for_load_state("domcontentloaded")
             print("Loaded VEED.io")
         except Exception as e:
@@ -118,7 +118,7 @@ async def run():
 
         # Step X: Accept Terms and Conditions if prompt appears
         try:
-            await page.wait_for_selector("text=Accept and Continue", timeout=100000)
+            await page.wait_for_selector("text=Accept and Continue", timeout=180000)
             await page.click("text=Accept and Continue")
             print("Accepted terms and conditions.")
         except:
